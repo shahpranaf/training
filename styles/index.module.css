@@ -1,0 +1,32 @@
+.courseCardList{
+    height:820px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    width:100%;
+}
+
+.card{
+    min-height: 320px;
+    max-height: 320px;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    transition: 0.3s;
+    max-width: 320px;
+    overflow: hidden;
+    margin:10px
+}
+
+.cardTitle{
+    text-align: center;
+}
+
+.cardText{
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+}
+
+.cardTitle a{
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    text-decoration-color: #007bff;
+}

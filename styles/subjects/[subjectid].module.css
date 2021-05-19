@@ -1,0 +1,29 @@
+#button{
+    margin:10px
+}
+
+
+.subjectDetails{
+    background: white
+}
+
+.courseDetails{
+    background: white
+}
+
+.subjectHeaderTitle{
+    color:black
+}
+
+.label{
+    color:black
+}
+
+.subjectTableList{
+    /* height:560px; */
+    overflow-y:auto
+}
+
+#subjectTableResponsive{
+    min-height: 250px;
+}
